@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f6ff;
+}
+
+.mb {
+  margin-bottom: 10px !important;
+}
+
+.p {
+  padding: 10px !important;
+}
+
+.grow {
+  flex: 1;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: column;
+  padding: 10px !important;
+}
